@@ -1,0 +1,22 @@
+{
+  "name": "touchie",
+  "version": "0.0.0",
+  "description": "CLI app for interfacing makey makey with a list of videos on a Raspberry PI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/crittelmeyer/touchie.git"
+  },
+  "bin": {
+    "mycli": "./cli.js"
+  },
+  "author": "Chris Rittelmeyer",
+  "license": "ISC",
+  "dependencies": {
+    "cmnd": "^0.1.1",
+    "youtube-dl": "^1.11.1"
+  }
+}
